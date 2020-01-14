@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  width: 100%;
+  margin-top: 15%;
+  position: absolute;
+  font-size: 8vw;
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 5px;
+}
+
+#header {
+  width: 90%;
+  height: 90%;
+  float: left;
+  margin: auto;
+  border: 1px solid #2a2b5f;
+  background: #393c83;
+}
+
+#clock {
+  width: 100%;
+  position: absolute;
+  font-size: 9vw;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  margin-top: 25%;
+}
+
+.main-container {
+  width: 100%;
+  height: 1080px;
+  position: relative;
+}
+
+.card {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 5px;
+}
+
+.img-background {
+  width: 100%;
+  height: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.2);
+}
